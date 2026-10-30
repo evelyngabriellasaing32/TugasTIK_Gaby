@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Poppins:wght@500;600;700&family=Quicksand:wght@500;700&display=swap');
+body{
+  background-color:#6fb1e4;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #1e4d78;
+  padding: 22px 20px;
+  text-align: center;
+  color: #ffffff;
+  border-bottom: 1px solid #163c60;
+}
+
+.header h1 {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2em;
+}
+
+.topnav {
+  overflow: hidden;
+  position: relative;
+  z-index: 20;
+  width: 100%;
+  background-color: #2d638d;
+  border-bottom: 1px solid #244f70;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.topnav a {
+  display: block;
+  color: #edf7ff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  transition: 0.2s ease;
+}
+
+.topnav a:hover {
+  background-color: #3977a3;
+  color: #ffffff;
+  border-bottom-color: #9ed0ef;
+}
+
+.topnav a.active {
+  background-color: #173f64;
+  color: #ffffff;
+  border-bottom-color: #b8def4;
+}
+
+
+.header-banner {
+  background-image:url(Desain\ tanpa\ judul.png); 
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 100%;
+  height: 255px;
+  position: relative;
+  left: auto;
+  right: auto;
+  margin: 0;
+  z-index: 1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bar-cyan {
+    background-color:#87c9ff ;
+    padding: 10px 15px;
+    font-family: 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center; 
+    border-top: 8px solid #fff; 
+    border-bottom: 8px solid #fff;
+    width: 100%;
+    margin: 0;
+}
+
+.bar-cyan h1 {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 40px;
+      -webkit-text-stroke: 8px #fff;
+      color: #0050a5;
+      filter: drop-shadow(4px 4px 0px black);
+      paint-order: stroke fill
+}
+
+
+body {
+  background-image: url('loker.jpg');
+  background-repeat: repeat; 
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hover-text:hover {
+  transform: scale(1.25); 
+  color: #6fb1e4;        
+}
+
+.box-utama {
+  position: relative;
+  background-color: #f1e4be;
+  width: 90%;
+  max-width: 850px !important; 
+  min-height: 380px;
+  margin: 30px auto;
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.2);
+  
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between;
+  align-items: center; 
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+
+.area-kanan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 0 !important;
+  margin-right: 0 !important; 
+}
+
+.area-kiri {
+  flex: 0 0 450px !important; 
+  width: 500px !important;
+  max-width: 700px !important;
+  box-sizing: border-box;
+}
+
+
+.guess-me-label {
+  position: absolute;
+  top: -15px;
+  left: 20px !important;
+  right: auto;
+  background-color: #0050a5; 
+  color: #fadd32; 
+  font-family: 'fredoka';
+  font-size: 50px;
+  -webkit-text-stroke: 8px #fff;
+  paint-order: stroke fill;
+  
+  padding: 15px 15px;
+  border-radius: 8px; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+  transform: rotate(-3deg); 
+  z-index: 10; 
+}
+
+.card-content {
+  width: 100%;
+  height: 100%;
+}
+
+.judul-nama {
+  font-family: 'Fredoka', 'Arial Rounded MT Bold', sans-serif;
+  font-size: 40px;
+  margin-top: 45px !important; 
+  margin-bottom: 10px;
+  filter: drop-shadow(4px 4px 0px black);
+  -webkit-text-stroke: 8px #fff;
+  color:#0050a5;
+  paint-order: stroke fill
+}
+
+
+.paragraf-bio {
+  font-family: 'fredoka';
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0 0 10px 0;
+  white-space: normal !important;
+  word-break: break-word !important;
+  color: #f1aa2d;
+  -webkit-text-stroke: 8px #fff;
+  paint-order: stroke fill
+  
+  
+}
+
+
+.frame-profil {
+  width: 220px !important;   
+  height: 290px !important;  
+  border-radius: 20px;
+  
+  border: 12px solid  #f1aa2d;
+  box-shadow: 
+    0px 12px 25px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 8px rgba(0, 0, 0, 0.2);
+    
+  overflow: hidden;
+  background-color: #f5e284;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.foto-karakter {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.foto-hover {
+  opacity: 0;
+}
+
+.frame-profil:hover .foto-utama {
+  opacity: 0;
+}
+
+.frame-profil:hover .foto-hover {
+  opacity: 1;
+}
+
+.label-who {
+  position: absolute;
+  bottom: -10px;
+  z-index: 3;
+  background-color: #0050a5;
+  color: #ffd400;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  padding: 4px 18px;
+  border-radius: 4px;
+  border: 1px solid #0050a5;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+
+/* CONTAINER MAKANAN FAVORIT */
+.section-favorit {
+  position: relative;
+  width: 1100px;
+  max-width: 1100px;
+  height: 350px;
+  margin: 50px auto 30px auto;
+  padding: 45px 35px 35px 35px;
+  background-color: rgba(255, 255, 255, 0.85); /* Agak transparan halus */
+  border-radius: 20px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* STIKER BADGE PINK */
+.badge-favorit {
+  position: absolute;
+  top: -20px;
+  background-color:#0050a5;
+  color:#fadd32;
+  font-family: 'Fredoka', cursive, sans-serif;
+  font-size: 18px;
+  padding: 8px 24px;
+  border-radius: 30px;
+  box-shadow: 0px 6px 15px #8f7a05(255, 82, 162, 0.4);
+  transform: rotate(-1deg);
+  z-index: 5;
+}
+
+.grid-foto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px; 
+  width: 100%;
+  margin-top: 15px;
+}
+
+/* KARTU FOTO DIGEDEIN */
+.card-foto {
+  position: relative;
+  width: 210px !important; 
+  height: 250px !important; 
+  background-color: #ffffff;
+  padding: 12px 12px 40px 12px;
+  border-radius: 18px;
+  border: 8px solid #fadd32;
+  box-shadow: 0px 10px 22px rgba(0, 0, 0, 0.15),
+    inset 0px 2px 5px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.card-foto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.miring-kiri {
+  transform: rotate(-3deg);
+}
+
+.miring-kanan {
+  transform: rotate(3deg);
+}
+
+.card-foto:hover {
+  transform: rotate(0deg) scale(1.1) !important; 
+  z-index: 10;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.25);
+  border-color: #0050a5;
+}
+
+
+
+.label-foto {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #555555;
+}
+
+.section-anime .card-film {
+  position: relative;
+  flex: 1;
+  max-width: 220px;
+  background-color: #1e1e24; /* Background Hitam Rol Film */
+  padding: 12px 10px;
+  border-radius: 12px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+
+.lubang-film-atas, .lubang-film-bawah {
+  display: flex;
+  justify-content: space-around;
+  margin: 4px 0;
+}
+
+.lubang-film-atas span, .lubang-film-bawah span {
+  width: 14px;
+  height: 10px;
+  background-color: #ffffff;
+  border-radius: 3px;
+  opacity: 0.8;
+}
+
+.frame-foto-film {
+  width: 100%;
+  height: 160px;
+  overflow: hidden;
+  border-radius: 6px;
+  margin: 6px 0;
+}
+
+.frame-foto-film img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.label-film {
+  display: block;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 13px;
+  margin-top: 6px;
+}
+
+.card-film:hover {
+  transform: rotate(0deg) scale(1.1) !important;
+  background-color: #0050a5;
+  z-index: 10; 
+}
+
+
+.section-uni .card-idcard {
+  position: relative;
+  flex: 1;
+  max-width: 220px;
+  background: linear-gradient(135deg, #ffffff 0%, #f0f7ff 100%);
+  border: 4px solid #3b82f6;
+  border-radius: 16px;
+  padding: 25px 12px 15px 12px;
+  box-shadow: 0px 10px 22px rgba(59, 130, 246, 0.2);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Lubang Tali Gantungan */
+.lubang-idcard {
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 24px;
+  height: 8px;
+  background-color: #cbd5e1;
+  border-radius: 10px;
+}
+
+.foto-idcard {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 2px solid #93c5fd;
+  margin-top: 5px;
+}
+
+.foto-idcard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.stempel-passed {
+  position: absolute;
+  top: 50px;
+  right: 15px;
+  border: 2px dashed #ef4444;
+  color: #ef4444;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 4px;
+  transform: rotate(-15deg);
+  opacity: 0.85;
+}
+
+.label-idcard {
+  display: block;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  color: #1e3a8a;
+  margin-top: 10px;
+}
+
+.card-idcard:hover {
+  transform: rotate(0deg) scale(1.1) !important;
+  border-color: #ffd400;
+  box-shadow: 0px 15px 30px #a9911a(255, 82, 162, 0.3);
+  z-index: 10;
+}
+
+.footer {
+  width: 100%;
+  padding: 16px;
+  margin-top: 24px;
+  text-align: center;
+  background-color: #1e4d78;
+  color: #ffffff;
+  border-top: 1px solid #163c60;
+}
+
+.footer p {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}

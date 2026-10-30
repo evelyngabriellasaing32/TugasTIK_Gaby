@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Layout Website</title>
+        <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Pinyon+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!--Membuat Header-->
+        <div class="header">
+            <h1>TUGAS HTML & CSS</h1>
+        </div>
+        <!--Membuat Menu-->
+        <div class="topnav">
+            <a href="data diri.html">BIODATA</a>
+                <a href="table.html" class="active">TABLE</a>
+                <a href="list.html">LIST</a>
+                <a href="index.html">STS</a>
+        </div>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">Austria info</div>
+    <div class="nav-links">
+      <a href="#country" class="nav-btn active">Country</a>
+      <a href="#destinations" class="nav-btn">Tempat Wisata</a>
+    </div>
+  </nav>
+
+  <!-- HERO HEADER -->
+  <header class="hero-header">
+    <div class="snow-container"></div>
+    <div class="hero-overlay">
+      <div class="center-content">
+        <span class="sub-title">WELCOME TO</span>
+        <div class="title-container">
+          <span class="snowflake-bg">❄</span>
+          <h1 class="country-title">Austria</h1>
+        </div>
+        <p class="tagline">The Real-Life Fairy Tale Country</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- SECTION COUNTRY (WELCOME & ABOUT) -->
+  <section id="country" class="about-section">
+    <div class="about-container">
+      <div class="about-card">
+        <div class="cute-sticker">✨ Austria Vibe ✨</div>
+        <h2 class="about-title">Welcome to Austria</h2>
+        <p class="about-text">
+          Austria adalah negara di Eropa Tengah yang terkenal dengan pemandangan Pegunungan Alps yang menakjubkan, kota-kota bersejarah, serta warisan musik klasik yang kaya. Dari keindahan danau Hallstatt hingga kemegahan istana di Wina, Austria menawarkan pengalaman bak negeri dongeng bagi setiap pengunjungnya.
+        </p>
+      </div>
+
+      <div class="polaroid-stack">
+        <div class="polaroid polaroid-back">
+          <img src="photo.avif" alt="Hallstatt Lake">
+          <span class="polaroid-caption">Hallstatt Lake 🏔️</span>
+        </div>
+        <div class="polaroid polaroid-front">
+          <img src="schorbun.jpg" alt="Vienna Castle">
+          <span class="polaroid-caption">Vienna Castle 🏰</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION TEMPAT WISATA (5 BERJEJER KE SAMPING) -->
+  <section id="destinations" class="destination-section">
+    <h2 class="section-title">Must-Visit Places</h2>
+    <p class="section-subtitle">Klik tempat favoritmu untuk melihat info detail ✨</p>
+    
+    <div class="card-grid">
+      <!-- Card 1 -->
+      <div class="dest-card" onclick="openModal('modal1')">
+        <div class="card-img-wrapper">
+          <img src="photo.avif" alt="Hallstatt">
+        </div>
+        <div class="card-info">
+          <h3>Hallstatt</h3>
+          <span>Click for details ✨</span>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="dest-card" onclick="openModal('modal2')">
+        <div class="card-img-wrapper">
+          <img src="schorbun.jpg" alt="Schönbrunn Palace">
+        </div>
+        <div class="card-info">
+          <h3>Schönbrunn</h3>
+          <span>Click for details ✨</span>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="dest-card" onclick="openModal('modal3')">
+        <div class="card-img-wrapper">
+          <img src="innsbruck.jpg" alt="Innsbruck">
+        </div>
+        <div class="card-info">
+          <h3>Innsbruck</h3>
+          <span>Click for details ✨</span>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="dest-card" onclick="openModal('modal4')">
+        <div class="card-img-wrapper">
+          <img src="salzburg.jpg" alt="Salzburg">
+        </div>
+        <div class="card-info">
+          <h3>Salzburg</h3>
+          <span>Click for details ✨</span>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="dest-card" onclick="openModal('modal5')">
+        <div class="card-img-wrapper">
+          <img src="Zell_am_See.jpeg" alt="Zell am See">
+        </div>
+        <div class="card-info">
+          <h3>Zell am See</h3>
+          <span>Click for details ✨</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODAL OVERLAY (POPUP PENJELASAN) -->
+  <div id="modalOverlay" class="modal-overlay" onclick="closeModal()">
+    <!-- Modal 1 -->
+    <div id="modal1" class="modal-content" onclick="event.stopPropagation()">
+      <button class="close-btn" onclick="closeModal()">&times;</button>
+      <div class="modal-badge">Austria Destination</div>
+      <h2>Hallstatt</h2>
+      <img src="photo.avif" alt="Hallstatt">
+      <p>Desa dongeng tercantik di pinggir danau yang dikelilingi Pegunungan Alpen. Terkenal dengan pemandangan rumah-rumah kayu bersejarah dan tambang garam tertua di dunia.</p>
+    </div>
+
+    <!-- Modal 2 -->
+    <div id="modal2" class="modal-content" onclick="event.stopPropagation()">
+      <button class="close-btn" onclick="closeModal()">&times;</button>
+      <div class="modal-badge">Austria Destination</div>
+      <h2>Schönbrunn Palace</h2>
+      <img src="schorbun.jpg" alt="Schönbrunn Palace">
+      <p>Istana megah bekas kediaman musim panas kekaisaran Habsburg di Wina. Memiliki 1.441 kamar dengan taman bunga yang sangat luas dan indah.</p>
+    </div>
+
+    <!-- Modal 3 -->
+    <div id="modal3" class="modal-content" onclick="event.stopPropagation()">
+      <button class="close-btn" onclick="closeModal()">&times;</button>
+      <div class="modal-badge">Austria Destination</div>
+      <h2>Innsbruck</h2>
+      <img src="innsbruck.jpg" alt="Innsbruck">
+      <p>Ibu kota Tyrolean yang terletak tepat di lembah Alpen. Terkenal dengan atap emas kuno (Goldenes Dachl) dan lanskap olahraga musim dingin dunia.</p>
+    </div>
+
+    <!-- Modal 4 -->
+    <div id="modal4" class="modal-content" onclick="event.stopPropagation()">
+      <button class="close-btn" onclick="closeModal()">&times;</button>
+      <div class="modal-badge">Austria Destination</div>
+      <h2>Salzburg</h2>
+      <img src="salzburg.jpg" alt="Salzburg">
+      <p>Kota kelahiran komponis legendaris Mozart dan lokasi syuting film klasik 'The Sound of Music'. Penuh dengan arsitektur barok yang indah.</p>
+    </div>
+
+    <!-- Modal 5 -->
+    <div id="modal5" class="modal-content" onclick="event.stopPropagation()">
+      <button class="close-btn" onclick="closeModal()">&times;</button>
+      <div class="modal-badge">Austria Destination</div>
+      <h2>Zell am See</h2>
+      <img src="Zell_am_See.jpeg" alt="Zell am See">
+      <p>Kombinasi sempurna antara danau jernih berwarna biru kristal dan puncak gunung bersalju. Tempat favorit untuk berenang di musim panas dan ski di musim dingin.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+ <footer class="footer">
+            <p>GABY IX-2</p>
+        </footer>
+</html>
